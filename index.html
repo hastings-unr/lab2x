@@ -7,18 +7,23 @@
  	p {font-size:15px;}
     </style -->
     <script src='script.js'> </script>
+    <script>
+   	function helloN(){
+ 	  document.writeln("<br>Hello, Now!");
+	}    
+    </script>
     <!-- script>
- 	function toggleBtn() {
+	function toggleBtn() {
 	  var btn = document.getElementById("btn");
 	  btn.value = (btn.value.charAt(0)=="D" ? "Call" : "Dial");
 	}
-  </script -->
+    </script -->
   </head>
   <body>
 	<p>PBX Emulator </p>
  	<input type=text id=txt value="">
 	<input type=button id=btn value="Dial" onClick="toggleBtn()"> 
-  <script>
+  <!-- script>
 	//document.writeln("<br>Hello, Now!");
 	const Pads = "1,ABC2,DEF3,GHI4,JKL5,MNO6,PQRS7,TUV8,WXYZ9,*,0,#"
 	var rc = -1, pads = Pads.split(","); console.log(pads.length)
@@ -31,7 +36,7 @@
 	    }
 	}
 	document.writeln("</table>");
-  </script>
+  </script -->
   </body>
 </html>
 
